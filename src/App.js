@@ -2,6 +2,7 @@ import './App.css';
 import Events from './Events';
 import Counter from './Counter';
 import ReadText from './ReadText';
+import Todolist from './Todolist';
 function App() {
   return (
     <div className="App">
@@ -11,6 +12,7 @@ function App() {
       <Events/>
       <Counter/>
       <ReadText/>
+      <Todolist/>
     </div>
   );
 }
