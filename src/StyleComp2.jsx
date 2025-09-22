@@ -10,7 +10,7 @@ class StyleComp2 extends Component {
         return (
             <div>
                 <h1 style={{...style1,...style2}}>Welcome to React</h1>
-                <h1 style={{...style1,...style2,...{fontSize:"3px"}}}>Welcome to React</h1>
+                <h1 style={{...style1,...style2,...{fontSize:"25px"}}}>Welcome to React</h1>
             </div>
         );
     }
